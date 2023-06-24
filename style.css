@@ -1,0 +1,203 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.header-logo {
+    margin-right: 225px;
+}
+.header-logo img {
+    border-radius: 5px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.hero {
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/miki-matsuhara-background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    color: #eae7d9;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: 0 190px;
+    margin-bottom: 200px;
+}
+.header-texts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 355px;
+}
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #46331f;
+}
+
+.secondary-text {
+    font-size: 17px;
+    color: #eae7d9;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+button {
+    font-size: 18px;
+    background-color: sienna;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.image-placeholder {
+    display: flex;
+    width: 500px;
+    height: 260px;
+}
+
+.information > h4 {
+    text-align: center;
+    font-size: 36px;
+    color: #46331f;
+    font-weight: bold;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+    margin-bottom: 130px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+}
+
+.card-image {
+    height: 170px;
+    width: 171px;
+    border: 5px solid sienna;
+}
+.border-color-image {
+    border-color: #463322;
+}
+
+.card-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.gray-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.citation-area {
+    margin: 80px;
+}
+
+.citation{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 780px;
+}
+
+.author-citation {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
+}
+
+.sign-up-area {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-area {
+    background-color: #463322;
+    width: 60%;
+    margin: 75px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-text {
+    font-size: 22px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.sign-up {
+    color: #F9FAF8;
+}
+
+.sign-left {
+    display: flex;
+    gap: 150px;
+}
+
+.sign-msg {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-signup-area {
+    border: 3px solid white;
+}
+
+.footer {
+    background-color: #463322;
+    text-align: center;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 50px 0;
+}
